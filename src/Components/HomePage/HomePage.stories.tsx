@@ -12,10 +12,9 @@ export default {
   },
 } as ComponentMeta<typeof HomePage>;
 
-const Template: ComponentStory<typeof HomePage> = (args) => <HomePage {...args} />;
+const Template: ComponentStory<typeof HomePage> = (args) => <HomePage />;
 
 export const Default = Template.bind({});
 Default.args = {
   // any args add here..
 };
-

@@ -1,5 +1,31 @@
 /* The top level container of the component*/
 .wrapper {
-  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background-color: #313642;
+    color: white;
+   text-align: left;
+padding-top: 50px;
+}
+
+.moviesContainer img {
+    width: 381px;
+    height: 240px;
+    border : 1px solid #10141e;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.moviesContainer  h2{
+    margin-bottom: 130px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 2.3;
 }
 
